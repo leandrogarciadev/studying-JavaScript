@@ -1,0 +1,46 @@
+body{
+    background: rgb(70,142,236);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.363);
+    
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+    text-transform: capitalize;
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    border: solid;
+}
+
