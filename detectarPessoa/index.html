@@ -7,19 +7,31 @@
     <title>Detectar Pessoa</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
         <h1>Detectar Pessoa por Idade</h1>
     </header>
-    
     <section>
         <div>
-        
+            <p>Ano de Nascimento:
+                <input type="text" name="txtano" id="txtano" min="0" size="5">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="resultado">
+            Preencha os dados acima para ver o resultado!            
         </div>
     </section>
-
     <footer>
-        <p><a href="https://github.com/leandrogarciadev/" target="_blank">&copy; leandro Garcia - github</=></p>
+        <p><a href="https://github.com/leandrogarciadev/" target="_blank">&copy; leandro Garcia - github</a></p>
     </footer>
 
     <script src="script.js"></script>
