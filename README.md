@@ -28,3 +28,15 @@ Com base nos dados informados, deverá exibir uma imagem statica com mensagem pe
     
     Exibir a imagem e idade da pessoa encontrada
 }
+
+# Contador
+Com base nos dados de inicio, fim e passo, deverá exibir a contagem dos números obedecendo as regras:
+
+{ 
+    
+    Analise se os dados estão em forma crescente ou regressiva
+    
+    Faça validações de campos em branco
+
+    Exibir o resultado da contagem de início até o fim, pela ordem de passo
+}

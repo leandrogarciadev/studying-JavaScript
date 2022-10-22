@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    
+    <section>
+        <div id="dados">
+            <p>Início:
+                <input type="number" name="numberInicio" id="numberInicio" min="0" size="10">
+            </p>
+            <p>Fim:
+                <input type="number" name="numberFim" id="numberFim" min="0" size="10">
+            </p>
+            <p>Passo:
+                <input type="number" name="numberPasso" id="numberPasso" min="0" size="10">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+
+        <div id="resultado">
+            Preparando contagem...
+        </div>
+    </section>
+
+    <footer>
+        <p><a href="https://github.com/leandrogarciadev/" target="_blank">&copy; leandro Garcia - github</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
