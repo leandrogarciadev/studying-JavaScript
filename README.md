@@ -40,3 +40,15 @@ Com base nos dados de inicio, fim e passo, deverá exibir a contagem dos número
 
     Exibir o resultado da contagem de início até o fim, pela ordem de passo
 }
+
+# Tabuada
+Recebe um número e gere a tabuada dele, sguindo as regras:
+
+{ 
+    
+    Faça validações de campo em branco
+    
+    Utilize os lações while ou for para solucão
+
+    Exibir o resultado da tabuada em uma option
+}
