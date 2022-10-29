@@ -48,7 +48,31 @@ Recebe um número e gere a tabuada dele, sguindo as regras:
     
     Faça validações de campo em branco
     
-    Utilize os lações while ou for para solucão
+    Utilize os laços while ou for para solucão
 
     Exibir o resultado da tabuada em uma option
+}
+
+# Analizando Números
+Receba um número, faça validações e mostre resultados:
+
+{ 
+    
+    Faça validações do número informado
+    
+    Utilize vetor, laços e funções para solucão
+
+    Exibir o resultado do vetor em uma option
+}
+
+# Eventos DOM
+Em um único arquivo faça uso de HTML, CSS e Javascript
+
+{ 
+    
+    Criar eventos com o mouse
+    
+    Utilize funções para calculos matemáticos
+
+    Exibir o resultado em div
 }
