@@ -65,6 +65,18 @@ Receba um número, faça validações e mostre resultados:
     Exibir o resultado do vetor em uma option
 }
 
+# Calculadora
+Em um único arquivo faça uso de HTML, CSS e Javascript
+
+{ 
+    
+    Criar eventos com o mouse
+    
+    Utilize funções para os calculos matemáticos
+
+    Exibir o resultado dentro da calculadora
+}
+
 # Eventos DOM
 Em um único arquivo faça uso de HTML, CSS e Javascript
 
