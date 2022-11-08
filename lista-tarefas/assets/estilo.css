@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+body{
+    background: rgb(70,142,236);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.363);
+    
+}
+
+div{
+    text-align: left;
+    padding: 8px;
+    text-transform: capitalize;
+    font-size: 18pt;
+    
+}
+
+button {
+    border: 1px solid rgb(105, 197, 255);
+    border-radius: 5px;
+    background-color: rgb(227, 248, 255);
+    color: rgb(105, 197, 255);
+    text-align: center;
+    padding: 5px;
+    font-size: 18pt;
+
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18pt;
+    text-align: left;
+}
+
+#tarefas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .tarefa-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    border: solid;
+}
+
