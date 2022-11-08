@@ -1,5 +1,5 @@
 # Contador
-Neste projeto, fazei uma simples integração de um código Javascript com uma página HTML.
+Neste projeto, farei uma simples integração de um código Javascript com uma página HTML.
 
 ## Utilidades
 
